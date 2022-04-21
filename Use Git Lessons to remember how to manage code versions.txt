@@ -1,0 +1,51 @@
+
+Pre-requisite:
+is that you need to install Node.js to your computer
+https://nodejs.org/en/download/
+
+open Windows terminal or VScode terminal or whichever terminal you're using
+T: , C: , D:
+to switch drive
+
+Go to cd where you code is located
+example > go to T: drive:    T: , Copy Path of your code location , continue to install V
+
+npm install gulp gulp-cli browser-sync
+npm install -g gulp-cli
+
+^ this is like Open Live Server on VSCode but not a plugin
+
+Whenever you launch your browser sync go to the directory where your code is and the gulpfile.js
+
+
+node -v  < Checks version
+
+create gulpfile.js
+
+create .gitignore 
+add node_modules to .gitignore
+
+in Terminal type gulp serve
+
+to cancel the server click crtl + c
+------------------------------------------------------
+
+git status
+
+git add . <-- adds all the file changes you want to make.
+
+git commit -m "Comment about your Commit"
+
+git push  <--- Pushes Code and Commit to github or whichever repo you're connected to.
+
+refresh github repo and you're set.
+
+cd ..               <- goes up a folder
+
+code . <---- opens up a vs code instance
+
+
+init, add, commit, status, push, pull, merge, branch... covers 90% of use cases
+
+--------------------------------
+

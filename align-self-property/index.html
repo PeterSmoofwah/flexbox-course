@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!-- Rarely used property but if you want to treate one item in a flex container slightly different then you can use
+align-self: flex-end or flex-start; -->
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 0;
+      height: calc(100vh - 20px);
+      width: calc(100vw - 20px);
+      border: 10px solid red;
+      display: flex;
+    }
+    img {
+      margin: 10px;
+      width: 100px;
+      height: 60px;
+    }
+    .img2 {
+        align-self: flex-end;
+    }
+    .img3{
+        align-self: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://source.unsplash.com/random" class="img1" alt="">
+    <img src="https://source.unsplash.com/random" class="img2" alt="">
+    <img src="https://source.unsplash.com/random" class="img3" alt="">
+  </div>
+</body>
+
+</html>
